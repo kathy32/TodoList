@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TODO List</title>
+    <link rel="shortcut icon" href="./wishlist.png" type="image/x-icon">
+    <link rel="stylesheet" href="./todoList.css">
+    <link rel="stylesheet" type="text/css" href="styleB.css"  media="screen and (min-width: 600px) and (max-width: 800px)">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="./todoList.js"></script>
+</head>
+
+<body>
+    <div class="header">
+      <h1 class="logo">TODO List</h1>
+      <div class="add">
+        <label for="title"></label>
+        <input type="text" id="title" placeholder="添加ToDo">
+        <ul class="mulu_list"></ul>
+      </div>
+      <!-- <button id="submi">添加</button> -->
+    </div>
+
+    <div class="mainBody">
+      <div class="start">
+          <h1>未完成</h1>
+          <ol id="todolist" class="demo-box"></ol>
+      </div>
+
+      <div class="end">
+          <h1>已完成</h1>
+          <ul id="donelist" class="demo-box"></ul>
+      </div>
+
+      <img src="./mali.jpg" alt="" id="bj">
+    </div>
+ 
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.mainBody {
+  width: 900px;
+  margin: 0 auto;
+  
+}
+
+/* body {
+  background-image: url('./mali.jpg');
+  background-repeat:no-repeat;
+  background-size:308px;
+  background-position: 0% 140%;
+} */
+
+.header {
+  height: 300px;
+  background-color: #fff;
+  position: relative;
+}
+
+
+
+.logo {
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width: 400px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 70px;
+  text-align: center;
+  color: #2E2E2E;
+}
+
+.add {
+  position: absolute;
+  top: 50%;
+  right: 35%;
+  width: 600px;
+  height: 40px;
+  line-height: 58px;
+  text-align: right;
+}
+
+.add input {
+  width: 500px;
+  height: 30px;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+#submi {
+  width: 88px;
+  height: 32px;
+  background-color: #388E8E;
+  border-radius: 5px;
+  position: absolute;
+  top: 53%;
+  right: 28%;
+  color: #fff;
+  border: #388E8E;
+}
+
+.title {
+  height: 80px;
+  line-height: 80px;
+}
+
+.title h1 {
+  float: left;
+}
+
+.title .count {
+  float: right;
+  line-height: 80px;
+}
+
+.title span {
+  height: 14px;
+  background-color: #fff;
+  border-radius: 14px;
+  padding: 0 6px;
+}
+
+#todolist li {
+  list-style: none;
+  height: 40px;
+  line-height: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  border-left: 7px solid #388E8E;
+  margin: 10px 0;
+}
+
+#donelist li {
+  list-style: none;
+  height: 40px;
+  line-height: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  border-left: 7px solid #999;
+  background: rgba(255, 255, 255, .5);
+}
+
+#todolist input,
+#donelist input {
+  float: left;
+  width: 25px;
+  height: 25px;
+  margin-left: 15px;
+  margin-top: 8px;
+}
+
+#todolist p,
+#donelist p {
+  float: left;
+  margin-left: 15px;
+}
+
+#todolist a,
+#donelist a {
+  float: right;
+  margin-right: 15px;
+  text-decoration: none;
+  color: #999;
+}
+
+footer {
+  text-align: center;
+  color: #999;
+  margin-top: 20px;
+}
+
+.del {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  background: #ccc;
+  flex-grow: 0;
+  margin-top: 10px;
+}
+
+#bj {
+  display: block;
+  width: 308px;
+
+  position: absolute;
+  top: 2%;
+  left: 0;
+}
